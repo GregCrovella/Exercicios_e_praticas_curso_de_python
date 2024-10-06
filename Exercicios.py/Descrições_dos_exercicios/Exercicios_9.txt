@@ -1,0 +1,26 @@
+# Descrição do Exercício
+
+Neste exercício, o objetivo é manipular uma lista de nomes em Python, adicionando novos elementos e exibindo cada nome junto com seu respectivo índice. O código demonstra o uso de listas, o método append() e um loop for para iterar sobre os elementos.
+
+# Estrutura do Código:
+
+1. Criação da Lista:
+
+• A variável lista é inicializada com três nomes: ['Maria', 'Helena', 'Luiz'].
+
+2. Adição de Elementos:
+
+• Os nomes 'Gregory', 'Dior' e 'Mayara' são adicionados à lista utilizando o método append(). Esse método adiciona os elementos ao final da lista.
+
+3. Geração de Índices:
+
+• A variável indices é definida como um objeto range que vai de 0 até o comprimento da lista (len(lista)), criando uma sequência de índices correspondentes aos elementos da lista.
+
+4. Exibição dos Elementos:
+
+• Um loop for itera sobre os índices gerados. Para cada indice, o código imprime o índice e o nome correspondente na lista, formatando a saída de forma clara.
+
+# Objetivo do Exercício:
+
+Este exercício permite que os alunos pratiquem conceitos básicos de manipulação de listas em Python, incluindo adição de elementos e iteração. A utilização do método append() ilustra como expandir uma lista, enquanto o loop for demonstra uma maneira eficaz de acessar e exibir elementos de uma lista com seus índices. Essa prática é fundamental para o entendimento de estruturas de dados e operações em Python.
+

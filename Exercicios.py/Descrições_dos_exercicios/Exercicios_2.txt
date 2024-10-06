@@ -1,0 +1,25 @@
+# Descrição do Exercício
+
+Neste exercício, o objetivo é calcular o Índice de Massa Corporal (IMC) de uma pessoa e exibir informações relacionadas à sua altura e peso. O código a seguir realiza as seguintes etapas:
+
+# Estrutura do Código:
+
+# 1. Declaração de Variáveis:
+
+• nome: Armazena o nome da pessoa (neste caso, "Gregory").
+• altura: Armazena a altura da pessoa em metros (1.83 m).
+• peso: Armazena o peso da pessoa em quilos (85 kg).
+• imc: Calcula o IMC utilizando a fórmula peso / (altura ** 2).
+
+2. Cálculo do IMC:
+
+O IMC é calculado dividindo o peso pelo quadrado da altura, seguindo a fórmula padrão.
+
+3.Exibição de Informações:
+
+O código utiliza a função print() para exibir uma frase que resume as informações da pessoa, incluindo seu nome, altura, peso e o valor do IMC.
+
+# Objetivo do Exercício:
+
+Este exercício permite que os alunos pratiquem a manipulação de variáveis e o cálculo de fórmulas matemáticas simples. Além disso, o uso da função print() para formatar a saída oferece uma introdução à apresentação de resultados de forma clara e legível. Essa prática é essencial para iniciantes em programação, pois combina conceitos de aritmética e strings.
+

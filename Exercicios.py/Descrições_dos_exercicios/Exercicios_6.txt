@@ -1,0 +1,36 @@
+# Descrição do Exercício
+
+Neste exercício, o objetivo é modificar uma string ao adicionar um asterisco (*) antes de cada letra do nome "Gregory" e também no final da string. O código utiliza um loop while para iterar sobre cada letra do nome.
+
+# Estrutura do Código:
+
+1. Inicialização de Variáveis:
+
+• A variável nome é definida como 'Gregory'.
+
+  • indice é inicializada em 0 para acompanhar a posição atual na string.
+
+  • novo_nome é inicializada como uma string vazia para construir o novo nome com os asteriscos.
+
+2. Loop while:
+
+• O loop continua enquanto indice for menor que o comprimento do nome (len(nome)).
+
+  • Em cada iteração, a letra correspondente ao índice atual é armazenada na variável letra.
+
+  • A letra é então adicionada à string novo_nome, precedida por um asterisco.
+
+  • O indice é incrementado em 1 para passar para a próxima letra.
+
+3. Adição do Asterisco Final:
+
+• Após o loop, um asterisco adicional é adicionado ao final da string novo_nome.
+
+4. Exibição do Resultado:
+
+• O código exibe o novo_nome, que agora contém o nome original modificado.
+
+# Objetivo do Exercício:
+
+Este exercício permite que os alunos pratiquem o uso de loops e a manipulação de strings em Python. A tarefa de adicionar um caractere antes de cada letra ajuda a solidificar a compreensão de iterações e construção de strings. Além disso, o uso de uma estrutura de controle como while oferece uma introdução prática a loops, preparando os alunos para tarefas mais complexas na programação.
+

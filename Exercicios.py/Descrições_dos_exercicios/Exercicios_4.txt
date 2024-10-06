@@ -1,0 +1,35 @@
+# Descrição do Exercício
+
+Neste exercício, o objetivo é interagir com o usuário para coletar seu nome e idade, e realizar várias operações e análises sobre o nome fornecido. O código é estruturado para exibir informações relevantes e realizar verificações sobre a string do nome.
+
+# Estrutura do Código:
+
+1. Entrada de Dados:
+
+• O programa solicita que o usuário digite seu nome e sua idade utilizando a função input().
+
+2. Verificação de Campos:
+
+• O código verifica se ambos os campos (nome e idade) foram preenchidos. Se sim, as seguintes informações são exibidas:
+  
+  • O nome do usuário.
+  
+  • O nome invertido utilizando a sintaxe de slicing (nome[::-1]).
+
+3. Verificação de Espaços:
+
+• O programa verifica se o nome contém espaços. Se houver espaços, uma mensagem é exibida informando que o nome contém espaços; caso contrário, informa que não contém.
+
+4. Análise do Nome:
+
+• O código exibe:
+
+  • O número de letras no nome utilizando len(nome).
+
+  • A primeira letra do nome (usando nome[0]).
+
+  • A última letra do nome (usando nome[-1]).
+
+# Objetivo do Exercício:
+
+Este exercício proporciona uma prática valiosa em manipulação de strings, condicionais e acesso a elementos de listas em Python. Os alunos aprendem a extrair informações de uma string e a realizar verificações simples, como a presença de espaços e a contagem de caracteres. Além disso, a utilização de f-strings para formatar a saída torna o código mais legível e fácil de entender. É uma ótima maneira de familiarizar-se com conceitos básicos de programação e lógica.

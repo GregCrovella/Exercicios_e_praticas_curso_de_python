@@ -1,0 +1,38 @@
+# Descrição do Exercício
+
+Neste exercício, o objetivo é implementar uma calculadora simples que permite ao usuário realizar operações matemáticas básicas (adição, subtração, multiplicação e divisão) de forma interativa. O código utiliza um loop while True para permitir que o usuário continue fazendo cálculos até decidir sair.
+
+# Estrutura do Código:
+
+1. Entrada de Dados:
+
+• O programa solicita que o usuário insira dois números e um operador (que pode ser +, -, * ou /) usando a função input().
+
+2. Validação dos Números:
+
+• As variáveis numeros_validos, num_1_float, e num_2_float são inicializadas.
+
+• O código tenta converter as entradas dos números em float. Se a conversão falhar (por exemplo, se o usuário digitar algo que não é um número), uma exceção é gerada e a variável numeros_validos é definida como None.
+
+3. Verificação de Entrada:
+
+• Se numeros_validos for None, o programa informa que os números digitados são inválidos e reinicia o loop.
+
+• O código verifica se o operador inserido está entre os operadores permitidos (+-/*). Se não estiver, uma mensagem de erro é exibida e o loop recomeça.
+
+• Se o usuário inserir mais de um caractere para o operador, uma mensagem avisa para digitar apenas um operador e o loop é reiniciado.
+
+4. Cálculo e Exibição do Resultado:
+
+• Quando os números e o operador são válidos, o programa realiza a operação correspondente e exibe o resultado.
+
+• As operações suportadas incluem adição, subtração, multiplicação e divisão.
+
+5. Opção de Sair:
+
+• Após exibir o resultado, o programa pergunta ao usuário se deseja sair. Se o usuário responder afirmativamente, o loop é encerrado e o programa termina.
+
+# Objetivo do Exercício:
+
+Este exercício oferece uma prática prática em manipulação de strings, conversões de tipos, controle de fluxo e tratamento de exceções em Python. Os alunos aprendem a construir uma aplicação interativa que lida com entradas do usuário, validações e operações aritméticas. Além disso, o uso de um loop infinito (com a opção de sair) é uma boa introdução à lógica de controle em programas.
+

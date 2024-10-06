@@ -1,0 +1,29 @@
+# Descrição do Exercício
+
+Neste exercício, o objetivo é comparar dois valores inseridos pelo usuário e determinar qual deles é maior ou se são iguais. O código é dividido em duas partes principais, cada uma envolvendo a entrada de dados e a comparação.
+
+# Estrutura do Código:
+
+1. Comparação de Valores:
+
+• O programa solicita ao usuário que digite dois valores (primeiro_valor e segundo_valor) por meio da função input().
+
+• Em seguida, utiliza uma estrutura condicional (if/else) para comparar os dois valores:
+
+  • Se primeiro_valor for maior ou igual a segundo_valor, uma mensagem é exibida indicando que o primeiro valor é maior ou igual ao segundo.
+
+  • Caso contrário, uma mensagem é exibida indicando que o segundo valor é maior.
+
+2. Comparação de Anos de Nascimento:
+
+• O programa solicita ao usuário que digite dois anos de nascimento (primeiro_ano e segundo_ano).
+
+• Uma nova comparação é realizada da mesma forma que na primeira parte:
+
+  • Se primeiro_ano for maior ou igual a segundo_ano, uma mensagem informa que o primeiro ano é maior ou igual ao segundo.
+
+  • Caso contrário, uma mensagem é exibida informando que o segundo ano é maior.
+
+# Objetivo do Exercício:
+
+Este exercício permite praticar a entrada de dados e o uso de condicionais em Python. A comparação de valores é uma habilidade fundamental na programação e é útil em diversas situações. O uso de f-strings para formatar a saída também proporciona uma introdução à formatação de strings, melhorando a legibilidade do código. Além disso, o exercício incentiva a reflexão sobre a natureza dos dados, especialmente ao lidar com números e anos.

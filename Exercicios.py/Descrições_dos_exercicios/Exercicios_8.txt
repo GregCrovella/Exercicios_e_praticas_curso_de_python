@@ -1,0 +1,49 @@
+# Descrição do Exercício
+
+Neste exercício, o objetivo é criar um jogo simples de adivinhação de palavras, onde o usuário tenta descobrir uma palavra secreta letra por letra. O código implementa a lógica do jogo e fornece feedback ao jogador a cada tentativa.
+
+# Estrutura do Código:
+
+1. Inicialização de Variáveis:
+
+• A variável palavra_secreta é definida como 'Escada', representando a palavra que o usuário deve adivinhar.
+
+• letras_acertadas é inicializada como uma string vazia para armazenar as letras que o jogador adivinhou corretamente.
+
+• numero_tentativas é inicializada em 0 para contar quantas tentativas o jogador fez.
+
+2. Loop Infinito:
+
+• O programa utiliza um loop while True que permite ao jogador continuar tentando até que a palavra secreta seja adivinhada.
+
+3. Entrada de Dados:
+
+• O jogador é solicitado a digitar uma letra, e o número de tentativas é incrementado.
+
+4. Validação da Entrada:
+
+• Se o usuário digitar mais de uma letra, uma mensagem é exibida solicitando que digite apenas uma letra, e o loop recomeça.
+
+5. Verificação de Letras:
+
+• Se a letra digitada está na palavra_secreta, ela é adicionada à string letras_acertadas.
+
+6. Formação da Palavra:
+
+• Uma nova variável palavra_formada é criada para exibir o progresso do jogador. Para cada letra da palavra secreta:
+
+  • Se a letra estiver em letras_acertadas, ela é adicionada à palavra_formada.
+
+  • Caso contrário, um asterisco (*) é adicionado.
+
+7. Exibição do Progresso:
+
+• A palavra formada é exibida ao jogador, mostrando as letras corretas e os asteriscos para as letras ainda não adivinhadas.
+
+8. Condições de Vitória:
+
+• Se a palavra_formada corresponder à palavra_secreta, o jogo exibe uma mensagem de vitória, limpa a tela (com os.system('cls')), informa a palavra correta e o número de tentativas. As variáveis letras_acertadas e numero_tentativas são redefinidas para permitir uma nova partida.
+
+# Objetivo do Exercício:
+
+Este exercício oferece uma prática em manipulação de strings, condicionais e loops em Python. Os alunos aprendem a criar um jogo interativo, desenvolvendo habilidades em lógica de programação e tratamento de entradas do usuário. Além disso, a implementação de feedback ao jogador e a estrutura do loop promovem uma compreensão de como criar aplicações dinâmicas e responsivas.
