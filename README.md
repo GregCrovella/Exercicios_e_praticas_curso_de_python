@@ -14,3 +14,37 @@ Este repositório não apenas reflete meu progresso ao longo do curso, mas tamb�
 
 ---
 
+# Descrição do Exercício
+Neste exercício, o objetivo é trabalhar com variáveis em Python e exibir informações pessoais de maneira estruturada. O código a seguir ilustra a criação e a exibição de diversas informações sobre um indivíduo, incluindo nome, sobrenome, idade, ano de nascimento, maioridade e altura.
+
+# Estrutura do Código:
+
+Declaração de Variáveis:
+
+• nome: Armazena o primeiro nome da pessoa.
+
+• sobrenome: Armazena o sobrenome completo da pessoa.
+
+• idade: Armazena a idade em anos.
+
+• ano_de_nascimento: Armazena o ano em que a pessoa nasceu.
+
+• maior_de_idade: Uma variável booleana que determina se a pessoa é maior de idade (18 anos ou mais).
+
+• altura_em_metros: Armazena a altura da pessoa em metros.
+
+# Exibição de Informações:
+
+O código utiliza a função print() para exibir as informações armazenadas nas variáveis, incluindo:
+
+• Nome e sobrenome.
+
+• Idade e ano de nascimento.
+
+• Verificação se a pessoa é maior de idade.
+
+• Altura em metros.
+
+# Objetivo do Exercício:
+
+O exercício visa praticar a declaração e manipulação de variáveis, além de desenvolver habilidades para exibir informações de forma clara e concisa. Este tipo de tarefa é fundamental para iniciantes em programação, permitindo a familiarização com os conceitos básicos de Python.
