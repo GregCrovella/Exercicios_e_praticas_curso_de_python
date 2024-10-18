@@ -1,6 +1,7 @@
 # Descrição do Exercício
 
-Neste exercício, o objetivo é avaliar o comprimento do nome digitado pelo usuário e classificá-lo em diferentes categorias com base no número de letras. O código realiza as seguintes etapas:
+Neste exercício, o objetivo é avaliar o comprimento do nome digitado pelo usuário e classificá-lo em 
+diferentes categorias com base no número de letras. O código realiza as seguintes etapas:
 
 # Estrutura do Código:
 
@@ -27,4 +28,7 @@ Neste exercício, o objetivo é avaliar o comprimento do nome digitado pelo usu�
 
 # Objetivo do Exercício:
 
-Este exercício permite que os alunos pratiquem a entrada de dados, o uso da função len() e a construção de estruturas condicionais em Python. A classificação de strings com base em seu comprimento é uma aplicação comum na programação, e esse exercício ajuda a desenvolver habilidades de lógica e controle de fluxo. Além disso, a validação da entrada do usuário é uma boa prática para garantir que os dados fornecidos sejam válidos.
+Este exercício permite que o aluno pratique a entrada de dados, o uso da função len() e a construção de estruturas condicionais em Python. 
+A classificação de strings com base em seu comprimento é uma aplicação comum na programação, 
+e esse exercício ajuda a desenvolver habilidades de lógica e controle de fluxo. Além disso, 
+a validação da entrada do usuário é uma boa prática para garantir que os dados fornecidos sejam válidos.
