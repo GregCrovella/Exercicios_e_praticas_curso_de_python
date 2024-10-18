@@ -1,6 +1,8 @@
 # Descrição do Exercício
 
-Neste exercício, o objetivo é trabalhar com variáveis em Python e exibir informações pessoais de maneira estruturada. O código a seguir ilustra a criação e a exibição de diversas informações sobre um indivíduo, incluindo nome, sobrenome, idade, ano de nascimento, maioridade e altura.
+Neste exercício, o objetivo é trabalhar com variáveis em Python e exibir informações pessoais de maneira estruturada. 
+O código a seguir ilustra a criação e a exibição de diversas informações sobre um indivíduo, incluindo nome, sobrenome, 
+idade, ano de nascimento, maioridade e altura.
 
 # Estrutura do Código:
 
@@ -32,4 +34,6 @@ O código utiliza a função print() para exibir as informações armazenadas na
 
 # Objetivo do Exercício:
 
-O exercício visa praticar a declaração e manipulação de variáveis, além de desenvolver habilidades para exibir informações de forma clara e concisa. Este tipo de tarefa é fundamental para iniciantes em programação, permitindo a familiarização com os conceitos básicos de Python.
+O exercício visa praticar a declaração e manipulação de variáveis, além de desenvolver habilidades para exibir informações 
+de forma clara e concisa. Este tipo de tarefa é fundamental para iniciantes em programação, 
+permitindo a familiarização com os conceitos básicos de Python.
