@@ -36,7 +36,8 @@ Dentro desse loop, o usuário é solicitado a escolher uma das opções.
 
 • Listar (l): O usuário pode visualizar todos os itens na lista.
 
-  • Se a lista estiver vazia, uma mensagem é exibida informando que não há nada para listar. Caso contrário, todos os itens e seus respectivos índices são impressos.
+  • Se a lista estiver vazia, uma mensagem é exibida informando que não há nada para listar. 
+    Caso contrário, todos os itens e seus respectivos índices são impressos.
 
 5. Tratamento de Erros:
 
