@@ -1,0 +1,45 @@
+# Descrição do Exercício: Validação de CPF
+
+# Objetivo:
+
+O objetivo deste programa em Python é validar um número de CPF (Cadastro de Pessoas Físicas) fornecido pelo usuário, assegurando que ele segue as regras de formação e não é uma sequência de dígitos repetidos.
+
+# Estrutura do Código:
+
+1. Importação de Módulos:
+
+• re: Usado para operações de expressões regulares.
+• sys: Usado para encerrar o programa caso necessário.
+
+2. Entrada do Usuário:
+
+• O programa solicita que o usuário insira um CPF, que pode incluir formatação (como pontos e hífens).
+
+3. Limpeza da Entrada:
+
+• Utiliza-se uma expressão regular para remover todos os caracteres que não são números, resultando em uma string com apenas os dígitos do CPF.
+
+4. Verificação de Sequência:
+
+O código verifica se o CPF fornecido é uma sequência de dígitos idênticos (por exemplo, "111.111.111-11"). Se for, uma mensagem é exibida e o programa é encerrado.
+
+5. Cálculo dos Dígitos Verificadores:
+
+• Primeiro Dígito:
+  
+  • O programa pega os primeiros nove dígitos e calcula o primeiro dígito verificador utilizando uma fórmula específica, que envolve multiplicar cada dígito por um peso que diminui de 10 a 2.
+
+• Segundo Dígito:
+  
+  • Em seguida, o programa adiciona o primeiro dígito calculado aos nove dígitos iniciais e calcula o segundo dígito verificador da mesma forma, mas usando pesos que vão de 11 a 2.
+
+6. Formação do CPF Completo:
+
+• O CPF gerado é formado pelos nove dígitos originais seguidos dos dois dígitos verificadores calculados.
+
+7. Validação Final:
+
+• O CPF fornecido pelo usuário é comparado ao CPF gerado pelo cálculo. Se ambos forem iguais, o CPF é considerado válido; caso contrário, é considerado inválido.
+
+Considerações Finais:
+Esse exercício é uma excelente prática para manipulação de strings, uso de expressões regulares e implementação de lógica para validação de dados em Python. Além disso, ensina conceitos importantes sobre o CPF e suas regras de formação, promovendo uma melhor compreensão dos dados pessoais e sua validação.
