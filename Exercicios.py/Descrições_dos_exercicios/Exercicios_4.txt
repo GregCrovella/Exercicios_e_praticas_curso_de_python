@@ -1,6 +1,8 @@
 # Descrição do Exercício
 
-Neste exercício, o objetivo é interagir com o usuário para coletar seu nome e idade, e realizar várias operações e análises sobre o nome fornecido. O código é estruturado para exibir informações relevantes e realizar verificações sobre a string do nome.
+Neste exercício, o objetivo é interagir com o usuário para coletar seu nome e idade, 
+e realizar várias operações e análises sobre o nome fornecido. 
+O código é estruturado para exibir informações relevantes e realizar verificações sobre a string do nome.
 
 # Estrutura do Código:
 
@@ -18,7 +20,8 @@ Neste exercício, o objetivo é interagir com o usuário para coletar seu nome e
 
 3. Verificação de Espaços:
 
-• O programa verifica se o nome contém espaços. Se houver espaços, uma mensagem é exibida informando que o nome contém espaços; caso contrário, informa que não contém.
+• O programa verifica se o nome contém espaços. Se houver espaços, uma mensagem é exibida informando que o nome contém espaços; 
+  caso contrário, informa que não contém.
 
 4. Análise do Nome:
 
@@ -32,4 +35,8 @@ Neste exercício, o objetivo é interagir com o usuário para coletar seu nome e
 
 # Objetivo do Exercício:
 
-Este exercício proporciona uma prática valiosa em manipulação de strings, condicionais e acesso a elementos de listas em Python. Os alunos aprendem a extrair informações de uma string e a realizar verificações simples, como a presença de espaços e a contagem de caracteres. Além disso, a utilização de f-strings para formatar a saída torna o código mais legível e fácil de entender. É uma ótima maneira de familiarizar-se com conceitos básicos de programação e lógica.
+Este exercício proporciona uma prática valiosa em manipulação de strings, condicionais e acesso a elementos de listas em Python. 
+O aluno aprende a extrair informações de uma string e a realizar verificações simples, 
+como a presença de espaços e a contagem de caracteres. 
+Além disso, a utilização de f-strings para formatar a saída torna o código mais legível e fácil de entender. 
+É uma ótima maneira de familiarizar-se com conceitos básicos de programação e lógica.
