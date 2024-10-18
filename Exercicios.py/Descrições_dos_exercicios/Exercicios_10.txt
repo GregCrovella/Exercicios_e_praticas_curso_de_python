@@ -1,0 +1,51 @@
+# Descrição do Exercício: Gerenciador de Lista de Compras
+
+# Objetivo:
+
+O programa permite ao usuário adicionar, remover e listar itens de uma lista de compras através de um menu interativo no terminal.
+
+# Estrutura do Código:
+
+1. Importação de Módulos:
+
+• O módulo os é importado para limpar a tela do terminal.
+
+2. Definição de Variáveis:
+
+• inserir, apagar, listar: Strings que representam as opções disponíveis no menu.
+
+• lista: Uma lista vazia que armazenará os itens da lista de compras.
+
+3. Loop Principal:
+
+• Um loop while True que continua executando até que seja manualmente interrompido. 
+
+Dentro desse loop, o usuário é solicitado a escolher uma das opções.
+
+4. Opções Disponíveis:
+
+• Inserir (i): O usuário pode adicionar um novo item à lista.
+  
+  • O programa solicita um valor e o adiciona à lista, em seguida, informa que o item foi listado.
+
+• Apagar (a): O usuário pode remover um item da lista.
+  
+  • O usuário deve fornecer o índice do item a ser apagado. O programa tenta converter 
+  essa entrada para um inteiro e remover o item correspondente. Erros de entrada são 
+  tratados, incluindo valores não numéricos e índices fora do intervalo.
+
+• Listar (l): O usuário pode visualizar todos os itens na lista.
+
+  • Se a lista estiver vazia, uma mensagem é exibida informando que não há nada para listar. Caso contrário, todos os itens e seus respectivos índices são impressos.
+
+5. Tratamento de Erros:
+
+O programa utiliza try e except para lidar com exceções, como conversões de tipos 
+inválidas e tentativas de acesso a índices inexistentes na lista.
+
+# Considerações Finais:
+
+Esse exercício é uma ótima forma de praticar manipulação de listas, condicionais, loops e tratamento 
+de exceções em Python. Além disso, o uso de comandos do sistema para limpar a tela proporciona 
+uma melhor experiência ao usuário, embora seja específico para sistemas compatíveis com o 
+comando cls.
