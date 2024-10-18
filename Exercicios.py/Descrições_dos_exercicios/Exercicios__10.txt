@@ -31,8 +31,8 @@ Dentro desse loop, o usuário é solicitado a escolher uma das opções.
 • Apagar (a): O usuário pode remover um item da lista.
   
   • O usuário deve fornecer o índice do item a ser apagado. O programa tenta converter 
-  essa entrada para um inteiro e remover o item correspondente. Erros de entrada são 
-  tratados, incluindo valores não numéricos e índices fora do intervalo.
+    essa entrada para um inteiro e remover o item correspondente. Erros de entrada são 
+    tratados, incluindo valores não numéricos e índices fora do intervalo.
 
 • Listar (l): O usuário pode visualizar todos os itens na lista.
 
